@@ -1,6 +1,7 @@
 package com.example.ibcharades.screens
 
 import android.os.CountDownTimer
+import android.os.Vibrator
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -169,7 +170,9 @@ fun GameScreen(
     currentWordIndex: Int,
     guessedCount: Int,
     skippedCount: Int,
-    remainingTime: Int // New parameter for remaining time
+    onGameEnd: () -> Unit,
+    remainingTime: Int, // New parameter for remaining time
+    vibrator: Vibrator?
 ) {
     val currentWord = words.getOrNull(currentWordIndex) ?: "No more words"
 

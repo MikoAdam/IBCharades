@@ -25,7 +25,9 @@ class MainActivity : ComponentActivity() {
                     Box(modifier = Modifier.padding(contentPadding)) {
                         when (currentScreen) {
                             "MainMenu" -> MainMenuScreen(
-                                onPlayClick = { currentScreen = "DeckSelection" }
+                                onPlayClick = { currentScreen = "DeckSelection" },
+                                onScoreBoardClick = { /* Placeholder for future Scoreboard screen */ },
+                                onAddDeckClick = { /* Placeholder for future Add Deck screen */ }
                             )
                             "DeckSelection" -> DeckSelectionScreen(
                                 onStartGame = { selectedDeck ->

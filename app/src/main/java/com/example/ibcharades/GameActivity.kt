@@ -98,7 +98,11 @@ class GameActivity : ComponentActivity(), SensorEventListener {
                     currentWordIndex = currentWordIndex,
                     guessedCount = guessedCount,
                     skippedCount = skippedCount,
-                    remainingTime = remainingTime // Use the class-level variable directly
+                    onGameEnd = {
+                        showScoreScreen(guessedWords, skippedWords)
+                    },
+                    remainingTime = remainingTime, // Use the class-level variable directly
+                    vibrator = vibrator
                 )
             }
         }

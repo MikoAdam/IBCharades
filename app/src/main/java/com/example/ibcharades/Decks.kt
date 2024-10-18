@@ -244,7 +244,155 @@ object Decks {
             "Colombian border", "Venezuelan Independence", "Venezuelan Bolivar",
             "Leopoldo López", "Carabobo", "Venezuelan War of Independence",
             "San Cristóbal", "Venezuelan Andes", "Venezuelan Llanos"
+        ),
+        "Famous Scientists" to listOf(
+            "Isaac Newton", "Albert Einstein", "Marie Curie", "Nikola Tesla",
+            "Galileo Galilei", "Charles Darwin", "Stephen Hawking", "Richard Feynman",
+            "Gregor Mendel", "James Watson", "Rosalind Franklin", "Niels Bohr",
+            "Alexander Fleming", "Dmitri Mendeleev", "Michael Faraday", "Thomas Edison",
+            "Carl Sagan", "Leonardo da Vinci", "Ada Lovelace", "Alan Turing"
+        ),
+        "Dinosaurs" to listOf(
+            "Tyrannosaurus Rex", "Triceratops", "Stegosaurus", "Velociraptor",
+            "Brachiosaurus", "Pterodactyl", "Allosaurus", "Diplodocus",
+            "Spinosaurus", "Ankylosaurus", "Iguanodon", "Parasaurolophus",
+            "Compsognathus", "Deinonychus", "Archaeopteryx", "Pachycephalosaurus"
+        ),
+        "Famous Inventors" to listOf(
+            "Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Marie Curie",
+            "Leonardo da Vinci", "James Watt", "Wright Brothers", "Galileo Galilei",
+            "Steve Jobs", "Bill Gates", "Elon Musk", "Mark Zuckerberg", "Guglielmo Marconi",
+            "Tim Berners-Lee", "Henry Ford", "Johannes Gutenberg", "Benjamin Franklin",
+            "Samuel Morse", "George Washington Carver", "Hedy Lamarr"
+        ),
+        "Greek Mythology" to listOf(
+            "Zeus", "Hera", "Poseidon", "Hades", "Athena", "Apollo", "Artemis",
+            "Aphrodite", "Hermes", "Hephaestus", "Demeter", "Dionysus",
+            "Persephone", "Achilles", "Odysseus", "Hercules", "Theseus", "Minotaur",
+            "Medusa", "Pegasus", "Cerberus", "Narcissus", "Pandora", "Cyclops"
+        ),
+        "Famous Philosophers" to listOf(
+            "Socrates", "Plato", "Aristotle", "Confucius", "Rene Descartes",
+            "John Locke", "Karl Marx", "Immanuel Kant", "Jean-Paul Sartre",
+            "Friedrich Nietzsche", "Simone de Beauvoir", "Voltaire", "David Hume",
+            "Blaise Pascal", "Michel Foucault", "Albert Camus", "Thomas Hobbes",
+            "Baruch Spinoza", "John Stuart Mill", "Epicurus"
+        ),
+        "Famous Composers" to listOf(
+            "Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach",
+            "Franz Schubert", "Pyotr Ilyich Tchaikovsky", "Antonio Vivaldi",
+            "Franz Liszt", "Frederic Chopin", "George Frideric Handel",
+            "Johannes Brahms", "Claude Debussy", "Richard Wagner", "Giuseppe Verdi",
+            "Gustav Mahler", "Maurice Ravel", "Igor Stravinsky", "Sergei Rachmaninoff",
+            "Aaron Copland", "Dmitri Shostakovich", "Philip Glass"
+        ),
+        "Famous Scientists" to listOf(
+            "Albert Einstein", "Isaac Newton", "Marie Curie", "Charles Darwin",
+            "Stephen Hawking", "Galileo Galilei", "Louis Pasteur", "Nikola Tesla",
+            "Gregor Mendel", "Rosalind Franklin", "Richard Feynman", "Carl Sagan",
+            "Neil deGrasse Tyson", "Dmitri Mendeleev", "Niels Bohr", "Max Planck",
+            "James Clerk Maxwell", "Alan Turing", "Leonardo da Vinci", "Jane Goodall"
+        ),
+        "Disney Movies" to listOf(
+            "The Lion King", "Aladdin", "Beauty and the Beast", "Frozen", "Moana",
+            "The Little Mermaid", "Cinderella", "Mulan", "Sleeping Beauty",
+            "Snow White and the Seven Dwarfs", "Tangled", "Pocahontas",
+            "The Jungle Book", "Peter Pan", "Toy Story", "Monsters, Inc.",
+            "Finding Nemo", "Zootopia", "Big Hero 6", "Wreck-It Ralph"
+        ),
+        "Mythical Creatures" to listOf(
+            "Dragon", "Phoenix", "Unicorn", "Griffin", "Hydra", "Kraken",
+            "Basilisk", "Sphinx", "Centaur", "Minotaur", "Mermaid",
+            "Pegasus", "Chimera", "Werewolf", "Vampire", "Goblin",
+            "Ogre", "Fairy", "Dwarf", "Cyclops"
+        ),
+        "Famous Battles" to listOf(
+            "Battle of Waterloo", "Battle of Thermopylae", "Battle of Gettysburg",
+            "Battle of Hastings", "Battle of Stalingrad", "Battle of Midway",
+            "Battle of Marathon", "Siege of Constantinople", "Battle of Agincourt",
+            "Battle of Tours", "Battle of Leipzig", "Battle of Gallipoli",
+            "Battle of Verdun", "Battle of Saratoga", "Battle of Trafalgar",
+            "Battle of the Bulge", "Battle of Yorktown", "Battle of the Somme",
+            "Battle of Bunker Hill", "Battle of Antietam"
+        ),
+        "Space Missions" to listOf(
+            "Apollo 11", "Voyager 1", "Hubble Space Telescope", "Mars Rover Curiosity",
+            "Challenger", "Columbia", "Sputnik 1", "Vostok 1", "Juno",
+            "Cassini", "New Horizons", "International Space Station", "Galileo",
+            "Lunar Module", "Apollo 13", "Mars Pathfinder", "Gemini Program",
+            "Space Shuttle Atlantis", "Soyuz", "Pioneer 10"
+        ),
+        "Famous Artists" to listOf(
+            "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet",
+            "Salvador Dalí", "Frida Kahlo", "Michelangelo", "Rembrandt",
+            "Andy Warhol", "Georgia O'Keeffe", "Paul Cézanne", "Jackson Pollock",
+            "Henri Matisse", "Edvard Munch", "Caravaggio", "Diego Rivera",
+            "Pierre-Auguste Renoir", "Edgar Degas", "Gustav Klimt", "Jean-Michel Basquiat"
+        ),
+        "Greek Gods" to listOf(
+            "Zeus", "Poseidon", "Hades", "Athena", "Apollo", "Artemis", "Hera",
+            "Hermes", "Hephaestus", "Aphrodite", "Dionysus", "Demeter",
+            "Ares", "Persephone", "Hestia", "Eros", "Hypnos", "Nike",
+            "Pan", "Helios"
+        ),
+        "Famous Castles" to listOf(
+            "Neuschwanstein Castle", "Windsor Castle", "Edinburgh Castle",
+            "Alhambra", "Mont Saint-Michel", "Prague Castle", "Bran Castle",
+            "Himeji Castle", "Versailles", "Château de Chambord",
+            "Krak des Chevaliers", "Castle of the Teutonic Order",
+            "Dover Castle", "Matsumoto Castle", "Eltz Castle",
+            "Balmoral Castle", "Blarney Castle", "Château de Chillon",
+            "Corfe Castle", "Leeds Castle"
+        ),
+        "Cartoon Characters" to listOf(
+            "Mickey Mouse", "Bugs Bunny", "Scooby-Doo", "Tom", "Jerry", "Bart Simpson",
+            "Homer Simpson", "SpongeBob SquarePants", "Daffy Duck", "Goofy",
+            "Donald Duck", "Shaggy", "Fred Flintstone", "Yogi Bear",
+            "Popeye", "Wile E. Coyote", "Road Runner", "Tweety", "Felix the Cat",
+            "Garfield"
+        ),
+        "Famous Dancers" to listOf(
+            "Michael Jackson", "Mikhail Baryshnikov", "Fred Astaire",
+            "Ginger Rogers", "Gene Kelly", "Rudolf Nureyev", "Martha Graham",
+            "Anna Pavlova", "Josephine Baker", "Patrick Swayze",
+            "Beyoncé", "Shakira", "Britney Spears", "Chris Brown",
+            "Isadora Duncan", "Sergei Polunin", "Savion Glover", "Alvin Ailey",
+            "Maddie Ziegler", "Misty Copeland"
+        ),
+        "Gems and Minerals" to listOf(
+            "Diamond", "Ruby", "Sapphire", "Emerald", "Amethyst", "Opal", "Topaz",
+            "Quartz", "Turquoise", "Aquamarine", "Garnet", "Peridot", "Jade",
+            "Onyx", "Amber", "Obsidian", "Moonstone", "Zircon", "Malachite",
+            "Lapis Lazuli"
+        ),
+        "Mythical Creatures" to listOf(
+            "Dragon", "Phoenix", "Unicorn", "Griffin", "Minotaur", "Mermaid",
+            "Sphinx", "Kraken", "Chimera", "Hydra", "Basilisk", "Cerberus",
+            "Werewolf", "Vampire", "Fairy", "Golem", "Centaur", "Pegasus",
+            "Goblin", "Yeti"
+        ),
+        "Festivals Around the World" to listOf(
+            "Carnival (Brazil)", "Diwali (India)", "Oktoberfest (Germany)",
+            "Chinese New Year (China)", "Mardi Gras (USA)", "Holi (India)",
+            "Day of the Dead (Mexico)", "Songkran (Thailand)", "Running of the Bulls (Spain)",
+            "La Tomatina (Spain)", "St. Patrick’s Day (Ireland)",
+            "Harbin Ice Festival (China)", "Cherry Blossom Festival (Japan)",
+            "Eid al-Fitr (Islamic)", "Thanksgiving (USA)", "Christmas (Worldwide)",
+            "Hanukkah (Judaism)", "Vesak (Buddhist)", "New Year’s Eve (Worldwide)",
+            "Bastille Day (France)"
+        ),
+        "Wonders of the World" to listOf(
+            "Great Wall of China", "Petra", "Christ the Redeemer", "Machu Picchu",
+            "Chichen Itza", "Roman Colosseum", "Taj Mahal", "Giza Pyramids",
+            "Angkor Wat", "Statue of Zeus", "Hanging Gardens of Babylon",
+            "Temple of Artemis", "Pharos of Alexandria", "Lighthouse of Alexandria",
+            "Stonehenge", "Acropolis of Athens", "Great Barrier Reef",
+            "Victoria Falls", "Mount Everest", "Grand Canyon"
         )
+
+
+
+
 
 
 
