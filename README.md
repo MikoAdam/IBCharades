@@ -6,24 +6,6 @@ The IBC Open Source Projects Workshop is a community-driven initiative aiming to
 
 This workshop offers the chance to contribute, build your portfolio, network, and learn from professionals in a collaborative, non-profit environment.
 
-Setup Instructions
-To set up the development environment for IBCharades:
-
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/MikoAdam/IBCharades.git
-cd IBCharades
-Install Dependencies: Open the project in Android Studio and install any required dependencies.
-
-Build and Run:
-
-Open the project in Android Studio.
-Connect an Android device or start an emulator.
-Click on Run to start the app.
-Contribute: Refer to the Contribution Guidelines to learn how to submit pull requests.
-
 Workshop Benefits
 Build Your Portfolio: All contributions are licensed under the Apache License, allowing you to include your work in your portfolio and resume.
 Learn from Professionals: Get guidance from experienced industry professionals.
