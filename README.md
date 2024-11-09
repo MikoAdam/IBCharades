@@ -8,16 +8,11 @@ The IBC Open Source Projects Workshop is a community-driven initiative aiming to
 
 This workshop offers the chance to contribute, build your portfolio, network, and learn from professionals in a collaborative, non-profit environment.
 
-Workshop Benefits
-
-Build Your Portfolio: All contributions are licensed under the Apache License, allowing you to include your work in your portfolio and resume.
-
-Learn from Professionals: Get guidance from experienced industry professionals.
-
-Networking: Connect with like-minded individuals within the IBC community.
-
-Non-Profit: Any future revenue generated from this project will be directed to IBC’s community initiatives.
-
+Workshop Benefits:
+ - Build Your Portfolio: All contributions are licensed under the Apache License, allowing you to include your work in your portfolio and resume.
+ - Learn from Professionals: Get guidance from experienced industry professionals.
+ - Networking: Connect with like-minded individuals within the IBC community.
+ - Non-Profit: Any future revenue generated from this project will be directed to IBC’s community initiatives.
 
 License
 This project is licensed under the Apache License 2.0.
