@@ -13,7 +13,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/IBCharades.git
+git clone [[https://github.com/your-username/IBCharades](https://github.com/MikoAdam/IBCharades).git](https://github.com/MikoAdam/IBCharades)
 cd IBCharades
 Install Dependencies: Open the project in Android Studio and install any required dependencies.
 
