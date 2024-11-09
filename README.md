@@ -1,7 +1,9 @@
 IBCharades - IBC’s Open Source Projects Workshop
+
 Welcome to IBCharades, the first project in the IBC Open Source Projects Workshop, an initiative by the International Berlin Community (IBC) to provide practical software development experience. This Android game, which has been a hit at IBC events, is now being developed as an open-source project, inviting contributions from developers, designers, and other professionals.
 
 Overview
+
 The IBC Open Source Projects Workshop is a community-driven initiative aiming to build open-source projects that serve as practical learning experiences for individuals interested in software development, design, project management, and related fields. Our inaugural project, IBCharades, is a fun and interactive Android game where players guess words based on gestures.
 
 This workshop offers the chance to contribute, build your portfolio, network, and learn from professionals in a collaborative, non-profit environment.
