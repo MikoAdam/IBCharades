@@ -33,7 +33,7 @@ class GameActivity : ComponentActivity(), SensorEventListener {
     private var gameTimer: CountDownTimer? = null
     private var isVertical = true // Ensures the phone returns to vertical before next tilt
     private var gameStarted = false // Ensures tilt is detected only after countdown
-
+    private var vibrationTriggered = false
     private var remainingTime = 60
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -80,10 +80,16 @@ class GameActivity : ComponentActivity(), SensorEventListener {
             override fun onTick(millisUntilFinished: Long) {
                 remainingTime = (millisUntilFinished / 1000).toInt()
                 updateGameScreen()  // No need to pass remainingTime explicitly now
+                if (millisUntilFinished <= 3000 && !vibrationTriggered) {
+                    vibrationTriggered = true
+                    val pattern = longArrayOf(0, 3000)// for 3 secs vibration
+                    vibrator?.vibrate(pattern, -1)//false safe
+                }
             }
 
             override fun onFinish() {
                 showScoreScreen(guessedWords, skippedWords)
+                vibrationTriggered = false
             }
         }.start()
 
