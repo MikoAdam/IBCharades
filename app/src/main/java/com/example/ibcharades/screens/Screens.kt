@@ -196,7 +196,7 @@ fun GameScreen(
             Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = currentWord,
-                fontSize = 96.sp,
+                fontSize = 67.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.DarkGray,
                 modifier = Modifier.align(Alignment.CenterHorizontally)
